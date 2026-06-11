@@ -1,3 +1,10 @@
+import { Navbar } from "@/Layout/Navbar"; 
+import { Hero } from "@/Sections/Hero"
+import { About } from "@/Sections/About"
+import { Projects } from "@/Sections/Projects"
+import { Experience } from "@/Sections/Experience"
+import { Testimonials } from "@/Sections/Testimonial"
+import { Contact } from "@/Sections/Contact"
 
 
 function App() {
@@ -5,7 +12,12 @@ function App() {
         <div className="min-h-screen overflow-x-hidden">
             <Navbar/>
             <main>
-                
+                <Hero/>
+                <About/>
+                <Projects/>
+                <Experience/>
+                <Testimonials/>
+                <Contact/>
             </main>
         </div>
     )
